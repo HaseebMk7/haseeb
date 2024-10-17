@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,57 +13,62 @@
             font-family: 'Poppins', sans-serif;
         }
         body {
-            background-color: #000; /* Black background */
-            color: #fff; /* White text */
+            background-color: #0d1117; /* Dark background */
+            color: #fff; /* Light text */
             padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full height */
         }
         header {
             text-align: center;
-            padding: 50px 0;
-            background: #333;
+            padding: 60px 0;
+            background: #161b22;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
             margin-top: 20px;
         }
         header h1 {
-            font-size: 3rem;
-            color: #fff;
+            font-size: 3.5rem;
+            color: #00ffcc;
         }
         header p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             color: #ccc;
         }
         nav {
             display: flex;
             justify-content: center;
             margin-top: 30px;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
         }
         nav a {
             text-decoration: none;
             color: #fff;
-            margin: 0 15px;
-            padding: 10px 20px;
+            margin: 5px 15px;
+            padding: 12px 25px;
             font-weight: bold;
-            background-color: #444;
-            border-radius: 25px;
-            transition: background-color 0.3s;
+            background-color: #1f6feb;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
         }
         nav a:hover {
-            background-color: #00ccff;
+            background-color: #00ffcc;
         }
         section {
             max-width: 1000px;
-            margin: 50px auto;
-            padding: 30px;
-            background-color: #222;
+            margin: 30px auto;
+            padding: 40px;
+            background-color: #21262d;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+            flex: 1;
         }
         section h2 {
             text-align: center;
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #00ccff;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #00ffcc;
         }
         .highlight-appian {
             background-color: #ffd700;
@@ -74,25 +78,47 @@
             font-weight: bold;
             text-align: center;
             margin-bottom: 20px;
+            box-shadow: 0px 3px 10px rgba(255, 215, 0, 0.5);
         }
         .skills-badge {
             display: inline-block;
-            background-color: #444;
+            background-color: #1f6feb;
             color: white;
-            padding: 10px 15px;
-            border-radius: 20px;
-            margin: 5px;
+            padding: 12px 20px;
+            border-radius: 25px;
+            margin: 7px;
             font-weight: bold;
+            transition: background-color 0.3s ease;
         }
         .skills-badge:hover {
-            background-color: #00ccff;
+            background-color: #00ffcc;
         }
         footer {
             text-align: center;
-            padding: 20px;
-            background: #333;
+            padding: 25px;
+            background: #161b22;
             color: #fff;
-            margin-top: 50px;
+            margin-top: 60px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            section h2 {
+                font-size: 1.8rem;
+            }
+            nav {
+                flex-direction: column; /* Stack navigation links on smaller screens */
+            }
+            nav a {
+                margin: 10px 0;
+                padding: 10px;
+                width: 100%;
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -100,7 +126,7 @@
 
 <header>
     <h1>Muhammad Haseeb Khan</h1>
-    <p>Certified Appian Developer | Software Engineer | AI & Machine Learning Specialist</p>
+    <p>Certified Appian Developer | Expert Software Engineer | Project Manager</p>
 </header>
 
 <nav>
@@ -114,9 +140,10 @@
 
 <section id="about">
     <h2>About Me</h2>
-    <p>I am Muhammad Haseeb Khan, a <strong>Certified Appian Developer</strong> with over 5 years of experience across software engineering, AI, and machine learning. I have successfully led the development of scalable applications in Appian, while also working extensively with artificial intelligence models and machine learning algorithms. Currently pursuing my Master’s in Computer Vision, I am passionate about solving real-world problems through innovative technologies, specializing in AI-driven solutions and enterprise automation using Appian.</p>
+    <p>I am Muhammad Haseeb Khan, a highly skilled <strong>Certified Appian Developer</strong> and expert in <strong>AI-driven solutions, Machine Learning</strong>, and <strong>Computer Vision</strong>. With over 5 years of experience in software development and a proven track record of leading projects in the HR and Fintech sectors, particularly in the U.S. market, I have helped businesses streamline operations through low-code automation and intelligent systems.</p>
+    <p>As an exceptional <strong>team lead</strong> and <strong>project manager</strong> with Lean Six Sigma Green Belt certification and a Master’s in Project Management, I ensure that every project I manage delivers high-quality results while fostering a collaborative team environment.</p>
     <div class="highlight-appian">
-        <p>Proudly Appian Certified with a deep understanding of low-code platforms, automation, and digital transformation solutions.</p>
+        <p><strong>Appian Certified:</strong> Expertise in building enterprise-level solutions using Appian’s low-code platform. Extensive experience with process automation, digital transformation, and workflow optimization for large organizations.</p>
     </div>
 </section>
 
@@ -126,18 +153,16 @@
         <span class="skills-badge">Appian Development</span>
         <span class="skills-badge">Python</span>
         <span class="skills-badge">C++</span>
-        <span class="skills-badge">Java</span>
         <span class="skills-badge">Machine Learning</span>
         <span class="skills-badge">AI Model Training</span>
         <span class="skills-badge">Computer Vision</span>
         <span class="skills-badge">Django</span>
         <span class="skills-badge">Neural Networks</span>
-        <span class="skills-badge">Data Preprocessing</span>
-        <span class="skills-badge">PostgreSQL</span>
         <span class="skills-badge">API Integrations</span>
+        <span class="skills-badge">PostgreSQL</span>
         <span class="skills-badge">Git</span>
-        <span class="skills-badge">Jira</span>
-        <span class="skills-badge">Appian Automation</span>
+        <span class="skills-badge">Lean Six Sigma</span>
+        <span class="skills-badge">Project Management</span>
     </div>
 </section>
 
@@ -145,13 +170,13 @@
     <h2>Experience</h2>
     <ul>
         <li><strong>Executive Software Developer / R&D Lead</strong> – Allure Digital (Dec 2022 - Present)
-            <p>Led the development of complex Appian-based systems for a fintech client, optimizing workflows through automation and integration with Salesforce and Outlook. Managed a team of developers, delivering AI-driven solutions that improved operational efficiency by 30%.</p>
+            <p>Led the development of advanced Appian-based systems for U.S. fintech clients. Improved workflows through automation and integrated systems such as Salesforce and Outlook, boosting productivity by 30%.</p>
         </li>
         <li><strong>Project Manager</strong> – S-H Group (Jun 2017 - Dec 2022)
-            <p>Implemented AI-based models for e-commerce optimization and digital marketing. Managed project teams for building custom solutions tailored to business needs, enhancing customer engagement through automated CRM systems.</p>
+            <p>Directed cross-functional teams to implement AI-driven models for e-commerce and digital marketing. Developed custom software solutions to enhance business processes, boosting engagement and conversion rates.</p>
         </li>
         <li><strong>Engineering Assistant</strong> – Neuro-Robotics Research Group (Mar 2020 - Jun 2022)
-            <p>Developed machine learning algorithms for EMG signal processing, improving exoskeleton control accuracy by 15%. Applied computer vision techniques for movement tracking and analysis using MATLAB and Python.</p>
+            <p>Implemented machine learning algorithms for exoskeleton control systems, improving accuracy in EMG signal processing by 15%. Applied computer vision techniques for real-time motion tracking.</p>
         </li>
     </ul>
 </section>
@@ -159,24 +184,20 @@
 <section id="projects">
     <h2>Projects</h2>
     <ul>
-        <li><strong>QuickworX:</strong> An AI-powered Human Resource Information Management System (HRIMS) developed in Appian, automating employee onboarding, task allocation, and performance tracking. Integrated with machine learning models for predictive analytics.</li>
-        <li><strong>Workflow Management System:</strong> Built an autonomous workflow solution for a tech company, streamlining operations by integrating Appian with Salesforce, Gmail, and Google Calendar, resulting in a 25% increase in team productivity.</li>
-        <li><strong>InvesDocs:</strong> An email management system leveraging Appian's low-code capabilities, combined with AI-driven email classification and Outlook integration for improved team collaboration and customer response times.</li>
-        <li><strong>Computer Vision Object Detection:</strong> Created a real-time object detection system using TensorFlow and OpenCV, enabling automated surveillance for retail stores and real-time inventory management through AI-powered tracking.</li>
-        <li><strong>Exo-Ankle:</strong> A machine learning-based control system for an ankle exoskeleton using EMG signals and neural networks, enhancing mobility for patients with lower limb disabilities.</li>
+        <li><strong>QuickworX:</strong> AI-powered Human Resource Information Management System (HRIMS) for automating onboarding, task allocation, and performance tracking, using Appian and machine learning for predictive analytics.</li>
+        <li><strong>Workflow Management System:</strong> Developed for a U.S. tech company to streamline operations, integrating Appian with Salesforce and Gmail. Resulted in a 25% increase in team productivity.</li>
+        <li><strong>InvesDocs:</strong> AI-based email classification and automation system built in Appian, integrated with Outlook to enhance team collaboration and customer support efficiency.</li>
+        <li><strong>Computer Vision Object Detection:</strong> Created an AI-driven real-time object detection system using TensorFlow and OpenCV for automated surveillance and inventory management.</li>
+        <li><strong>Exo-Ankle:</strong> Machine learning control system for an ankle exoskeleton using EMG signals, improving mobility for patients with disabilities.</li>
     </ul>
 </section>
 
 <section id="education">
     <h2>Education</h2>
     <ul>
-        <li><strong>Master’s of Computer Vision</strong> – Université de Bourgogne (Current)
-            <p>Specialized in image processing, deep learning, and object recognition techniques using advanced AI models and computer vision frameworks.</p>
-        </li>
-        <li><strong>Master’s of Project Management</strong> – Air University (2023-2024)</li>
-        <li><strong>Bachelor's of Engineering in Mechatronics</strong> – Air University (2018-2022)
-            <p>Focused on robotics, automation, and machine learning with projects in autonomous vehicle navigation and real-time object tracking using machine learning.</p>
-        </li>
+        <li><strong>Master’s in Computer Vision</strong> – Université de Bourgogne (Current)</li>
+        <li><strong>Master’s in Project Management</strong> – Air University (2023-2024)</li>
+        <li><strong>Bachelor’s in Mechatronics Engineering</strong> – Air University (2018-2022)</li>
     </ul>
 </section>
 
@@ -184,11 +205,12 @@
     <h2>Contact</h2>
     <p>Email: mhaseebkhan53@gmail.com</p>
     <p>Phone: (+33) 759575910</p>
-    <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
+    <p>LinkedIn:  <a href="https://www.linkedin.com/in/muhammad-haseeb-khan-57a5801a2/" target="_blank">Muhammad Haseeb Khan</a>
+
 </section>
 
 <footer>
-    <p>© 2024 Muhammad Haseeb Khan | Appian Developer, AI Specialist, Machine Learning Expert</p>
+    <p>© 2024 Muhammad Haseeb Khan | Appian Developer | AI Specialist | Machine Learning Expert</p>
 </footer>
 
 </body>
