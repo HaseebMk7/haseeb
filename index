@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Haseeb Khan | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #0d1117; /* Dark background */
+            color: #fff; /* Light text */
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full height */
+        }
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background: #161b22;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            color: #00ffcc;
+        }
+        header p {
+            font-size: 1.3rem;
+            color: #ccc;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 5px 15px;
+            padding: 12px 25px;
+            font-weight: bold;
+            background-color: #1f6feb;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #00ffcc;
+        }
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 40px;
+            background-color: #21262d;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+            flex: 1;
+        }
+        section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #00ffcc;
+        }
+        .highlight-appian {
+            background-color: #ffd700;
+            color: #333;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0px 3px 10px rgba(255, 215, 0, 0.5);
+        }
+        .skills-badge {
+            display: inline-block;
+            background-color: #1f6feb;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            margin: 7px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .skills-badge:hover {
+            background-color: #00ffcc;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #161b22;
+            color: #fff;
+            margin-top: 60px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            section h2 {
+                font-size: 1.8rem;
+            }
+            nav {
+                flex-direction: column; /* Stack navigation links on smaller screens */
+            }
+            nav a {
+                margin: 10px 0;
+                padding: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Muhammad Haseeb Khan</h1>
+    <p>Certified Appian Developer | Expert Software Engineer | Project Manager</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am Muhammad Haseeb Khan, a highly skilled <strong>Certified Appian Developer</strong> and expert in <strong>AI-driven solutions, Machine Learning</strong>, and <strong>Computer Vision</strong>. With over 5 years of experience in software development and a proven track record of leading projects in the HR and Fintech sectors, particularly in the U.S. market, I have helped businesses streamline operations through low-code automation and intelligent systems.</p>
+    <p>As an exceptional <strong>team lead</strong> and <strong>project manager</strong> with Lean Six Sigma Green Belt certification and a Master’s in Project Management, I ensure that every project I manage delivers high-quality results while fostering a collaborative team environment.</p>
+    <div class="highlight-appian">
+        <p><strong>Appian Certified:</strong> Expertise in building enterprise-level solutions using Appian’s low-code platform. Extensive experience with process automation, digital transformation, and workflow optimization for large organizations.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div>
+        <span class="skills-badge">Appian Development</span>
+        <span class="skills-badge">Python</span>
+        <span class="skills-badge">C++</span>
+        <span class="skills-badge">Machine Learning</span>
+        <span class="skills-badge">AI Model Training</span>
+        <span class="skills-badge">Computer Vision</span>
+        <span class="skills-badge">Django</span>
+        <span class="skills-badge">Neural Networks</span>
+        <span class="skills-badge">API Integrations</span>
+        <span class="skills-badge">PostgreSQL</span>
+        <span class="skills-badge">Git</span>
+        <span class="skills-badge">Lean Six Sigma</span>
+        <span class="skills-badge">Project Management</span>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li><strong>Executive Software Developer / R&D Lead</strong> – Allure Digital (Dec 2022 - Present)
+            <p>Led the development of advanced Appian-based systems for U.S. fintech clients. Improved workflows through automation and integrated systems such as Salesforce and Outlook, boosting productivity by 30%.</p>
+        </li>
+        <li><strong>Project Manager</strong> – S-H Group (Jun 2017 - Dec 2022)
+            <p>Directed cross-functional teams to implement AI-driven models for e-commerce and digital marketing. Developed custom software solutions to enhance business processes, boosting engagement and conversion rates.</p>
+        </li>
+        <li><strong>Engineering Assistant</strong> – Neuro-Robotics Research Group (Mar 2020 - Jun 2022)
+            <p>Implemented machine learning algorithms for exoskeleton control systems, improving accuracy in EMG signal processing by 15%. Applied computer vision techniques for real-time motion tracking.</p>
+        </li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>QuickworX:</strong> AI-powered Human Resource Information Management System (HRIMS) for automating onboarding, task allocation, and performance tracking, using Appian and machine learning for predictive analytics.</li>
+        <li><strong>Workflow Management System:</strong> Developed for a U.S. tech company to streamline operations, integrating Appian with Salesforce and Gmail. Resulted in a 25% increase in team productivity.</li>
+        <li><strong>InvesDocs:</strong> AI-based email classification and automation system built in Appian, integrated with Outlook to enhance team collaboration and customer support efficiency.</li>
+        <li><strong>Computer Vision Object Detection:</strong> Created an AI-driven real-time object detection system using TensorFlow and OpenCV for automated surveillance and inventory management.</li>
+        <li><strong>Exo-Ankle:</strong> Machine learning control system for an ankle exoskeleton using EMG signals, improving mobility for patients with disabilities.</li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Master’s in Computer Vision</strong> – Université de Bourgogne (Current)</li>
+        <li><strong>Master’s in Project Management</strong> – Air University (2023-2024)</li>
+        <li><strong>Bachelor’s in Mechatronics Engineering</strong> – Air University (2018-2022)</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: mhaseebkhan53@gmail.com</p>
+    <p>Phone: (+33) 759575910</p>
+    <p>LinkedIn:  <a href="https://www.linkedin.com/in/muhammad-haseeb-khan-57a5801a2/" target="_blank">Muhammad Haseeb Khan</a>
+
+</section>
+
+<footer>
+    <p>© 2024 Muhammad Haseeb Khan | Appian Developer | AI Specialist | Machine Learning Expert</p>
+</footer>
+
+</body>
+</html>
